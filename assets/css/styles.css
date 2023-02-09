@@ -1244,7 +1244,16 @@ img {
 }
 
 
-.button--me-on-top {
+..button__me__on__top {
+    background-color: white; 
+    color: black; 
+    border: none;
+  }
+  
+  .button__me__on__top:hover {
+    background-color: --first-color;
+    color: white;
+  } {
     background-color: white; 
     color: black; 
     border: none;
